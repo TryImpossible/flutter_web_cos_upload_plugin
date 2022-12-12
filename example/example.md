@@ -1,1 +1,1 @@
-check [README.md](example.md)
+check [README.md](../README.md)
