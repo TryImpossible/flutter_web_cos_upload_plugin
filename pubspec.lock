@@ -64,6 +64,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.0.2"
+  csslib:
+    dependency: transitive
+    description:
+      name: csslib
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.17.2"
   file:
     dependency: transitive
     description:
@@ -71,6 +78,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "6.1.4"
+  flutter_web_optimizer:
+    dependency: "direct main"
+    description:
+      name: flutter_web_optimizer
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.1"
   frontend_server_client:
     dependency: transitive
     description:
@@ -85,6 +99,20 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.1"
+  html:
+    dependency: transitive
+    description:
+      name: html
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.15.1"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.13.5"
   http_multi_server:
     dependency: transitive
     description:
@@ -156,19 +184,26 @@ packages:
     source: hosted
     version: "2.0.1"
   package_config:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: package_config
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.0"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.8.3"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "5.1.0"
   pool:
     dependency: transitive
     description:
@@ -253,6 +288,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.2.0"
+  tencent_cos_plus:
+    dependency: "direct main"
+    description:
+      name: tencent_cos_plus
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.2.0"
   term_glyph:
     dependency: transitive
     description:
@@ -316,8 +358,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.2.0"
-  yaml:
+  xml:
     dependency: transitive
+    description:
+      name: xml
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "6.2.2"
+  yaml:
+    dependency: "direct main"
     description:
       name: yaml
       url: "https://pub.flutter-io.cn"
