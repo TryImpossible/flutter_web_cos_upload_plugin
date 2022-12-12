@@ -1,39 +1,31 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A sub plug-in of flutter_web_optimizer，used to upload resources to cos
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+upload flutter web build artifact to tencent cos，such as image，javascript file and etc
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```yaml
+dev_dependencies:
+  flutter_web_cos_upload_plugin: ^1.0.0
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+flutter_web_cos_upload_plugin.yaml
 
-```dart
-const like = 'sample';
+```yaml
+cos:
+  config:
+    appId: 'xxx'
+    secretId: 'xxx'
+    secretKey: 'xxx'
+  bucketName: 'xxx'
+  region: 'xxx'
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+1. copy `flutter_web_cos_upload_plugin.yaml` to your project root directory
+2. fill in the correct appId，secretId，secretKey，bucketName and region
+3. execute `flutter pub run flutter_web_optimizer optimize --asset-base xxx --plugin flutter_web_cos_upload_plugin` command
+4. then the resources will be uploaded to tencent cos
